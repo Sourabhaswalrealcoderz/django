@@ -13,7 +13,7 @@ COPY entrypoint.sh /app/entrypoint.sh
 
 COPY . /app/backend
 
-EXPOSE 8080
+EXPOSE 8000
 
  CMD python /app/backend/manage.py makemigrations
  CMD python /app/backend/manage.py migrate
