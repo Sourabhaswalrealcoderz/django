@@ -18,4 +18,5 @@ EXPOSE 8000
  CMD python /app/backend/manage.py makemigrations
  CMD python /app/backend/manage.py migrate
 
+CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 webapp.wsgi
 # CMD python /app/backend/manage.py runserver 0.0.0.0:8080
