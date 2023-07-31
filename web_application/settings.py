@@ -88,6 +88,7 @@ DATABASES = {
         'HOST': '/cloudsql/staging-378812:us-central1:realcoderz',
         'NAME': 'djangodb',
         'USER': 'realcoderzstagging',
+        'PASSWORD': 'realcoderzstagging',
         'PORT': '3306',
         }
     }
