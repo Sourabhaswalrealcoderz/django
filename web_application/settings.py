@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'web_application.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '34.121.60.213',
+        'HOST': '/cloudsql/staging-378812:us-central1:realcoderz',
         'NAME': 'djangodb',
         'USER': 'realcoderzstagging',
         'PORT': '3306',
