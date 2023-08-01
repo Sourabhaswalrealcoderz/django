@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'customer',
     'recruit',
     'manageapp',
-    'engageapp'
+    'engageapp',
+    'payrollmodule'
 ]
 
 MIDDLEWARE = [
