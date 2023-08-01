@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'skill',
     'customer',
     'recruit',
-    'manageapp'
+    'manageapp',
+    'engageapp'
 ]
 
 MIDDLEWARE = [
