@@ -13,9 +13,4 @@ class customer(models.Model):
 
 
 
-class seller(models.Model):
-    sellername = models.CharField(max_length=100)
-   selleraddess= models.CharField(max_length=1000,default="description")
-    sellerlocation= models.CharField(max_length=1000,default="description")
-    def __str__(self):
-        return self.name
+
