@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'skillbuilder',
     'skill',
-    'customer'
+    'customer',
+    'recruit'
 ]
 
 MIDDLEWARE = [
