@@ -15,8 +15,10 @@ COPY . /app/backend
 
 EXPOSE 8000
 
+CMD ["./entrypoint.sh"]
+
  #CMD python /app/backend/manage.py makemigrations
-CMD python /app/backend/manage.py migrate
+#CMD python /app/backend/manage.py migrate
 
 #CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 web_application.wsgi
 
