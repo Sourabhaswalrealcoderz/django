@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'recruit',
     'manageapp',
     'engageapp',
-    'payrollmodule'
+    'payrollmodule',
+    'apigatewaymodule'
 ]
 
 MIDDLEWARE = [
