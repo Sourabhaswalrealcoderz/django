@@ -22,3 +22,5 @@ CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 web_applicat
 # CMD python /app/backend/manage.py runserver 0.0.0.0:8080
 
 # docker file for staging encv
+
+#docker file of django
