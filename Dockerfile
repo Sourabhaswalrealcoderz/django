@@ -24,3 +24,6 @@ CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 web_applicat
 # docker file for staging encv
 
 #docker file of django
+
+#docker file for django djnah=o api github api
+
