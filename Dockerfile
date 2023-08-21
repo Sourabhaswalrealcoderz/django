@@ -39,3 +39,5 @@ CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 web_applicat
 
 #Docker file phase 6
 
+#DOCKER FILE PHASE 7
+
