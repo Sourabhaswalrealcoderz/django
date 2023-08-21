@@ -29,3 +29,5 @@ CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 web_applicat
 
 #DOCKER FILES T-21 AUG2023
 
+#DOCKER FILES PHASE 2
+
